@@ -41,8 +41,8 @@
           flex-wrap: wrap;
         }
          #services-section::before{
-             height: 60%;
-         }
+          height: 60%;
+        }
         #services img{
           width: 66px;
           padding: 6px ;
