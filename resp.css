@@ -9,7 +9,7 @@
           flex-direction: column;
       }
       .navbar{
-          height: 500px;    
+          height: 500px;   
           flex-direction: column;
           transition: all 0.7s cubic-bezier(0.68, -0.55, 0.27, 1.55);
           position: sticky;
@@ -40,6 +40,9 @@
         #services{
           flex-wrap: wrap;
         }
+         #services-section::before{
+             height: 60%;
+         }
         #services img{
           width: 66px;
           padding: 6px ;
